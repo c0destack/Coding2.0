@@ -6,7 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/c0destack/Coding2.0/array/array/</loc>
+         <loc>https://github.com/c0destack/Coding2.0/about/about/</loc>
+         <lastmod>2021-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/c0destack/Coding2.0/coding/contents/</loc>
+         <lastmod>2021-08-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/c0destack/Coding2.0/coding/array/array/</loc>
          <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
