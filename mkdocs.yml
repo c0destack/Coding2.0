@@ -1,0 +1,90 @@
+site_name: Coding 2.0
+site_url: https://github.com/c0destack/Coding2.0
+site_description: >-
+  It contains coding notes
+repo_name: c0destack/Coding2.0
+repo_url: https://github.com/c0destack/Coding2.0
+theme: 
+  name: material
+  custom_dir: overrides
+  font:
+    text: Work Sans
+  highlightjs: true
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/lightbulb-off
+        name: Switch to dark mode
+    - scheme: slate
+      primary: cyan
+      toggle:
+        icon: material/lightbulb-on
+        name: Switch to light mode
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - header.autohide
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - search.share
+    - search.suggest
+markdown_extensions:
+  - codehilite
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.details
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: iter8-tools
+      repo: iter8
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+    - Home: README.md
+    - Coding: 
+        - contents: coding/contents.md
+        - Array: 
+          - Introduction: coding/array/array.md
+          - Sorting: coding/array/sorting/sorting.md
+    - System Design: system-design/contents.md
+    - Core subjects: core-subjects/contents.md
+    - Concepts: 
+      - Cassandra: concepts/cassandra/contents.md
+      - Git: concepts/git/contents.md
+    - CKA: cka/contents.md
+    - Github ⧉: https://github.com/ispeakc0de
+    - Twitter ⧉: https://twitter.com/ispeakc0de
+    - Blogs ⧉: https://dev.to/ispeakc0de
+    - About: about/about.md
+   
