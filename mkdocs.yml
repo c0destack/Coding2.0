@@ -77,6 +77,8 @@ nav:
         - Array: 
           - Introduction: coding/array/array.md
           - Sorting: coding/array/sorting/sorting.md
+          - Searching: coding/array/searching/searching.md
+          - Comparator: coding/array/comparator/comparator.md
     - System Design: system-design/contents.md
     - Core subjects: core-subjects/contents.md
     - Concepts: 
