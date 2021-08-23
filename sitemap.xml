@@ -26,6 +26,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/c0destack/Coding2.0/coding/array/comparator/comparator/</loc>
+         <lastmod>2021-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/c0destack/Coding2.0/coding/array/searching/searching/</loc>
+         <lastmod>2021-08-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/c0destack/Coding2.0/coding/array/sorting/sorting/</loc>
          <lastmod>2021-08-23</lastmod>
          <changefreq>daily</changefreq>
