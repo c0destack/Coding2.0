@@ -5,6 +5,7 @@
 1. [insertion sort](#insertion-sort)
 
 #### Selection Sort
+Sort the array using selection sort
 ??? info "View the code"
 
     ```c++
@@ -57,6 +58,7 @@
     }
     ```
 #### Bubble Sort
+Sort the array using bubble sort
 ??? info "View the code"
     ```c++
     #include<bits/stdc++.h>
@@ -105,6 +107,7 @@
     ```
 
 #### Insertion Sort
+Sort the array using insertion sort
 ??? info "View the code"
     ```c++
     #include<bits/stdc++.h>
