@@ -80,6 +80,9 @@ nav:
           - Searching: coding/array/searching/searching.md
           - Comparator: coding/array/comparator/comparator.md
           - Sub Arrays: coding/array/sub-array/sub-array.md
+        - Character Array: coding/character-array/character-array.md
+        - String: 
+          - Introduction: coding/string/string.md
     - System Design: system-design/contents.md
     - Core subjects: core-subjects/contents.md
     - Concepts: 
