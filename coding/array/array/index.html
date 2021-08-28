@@ -490,6 +490,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#comparator" class="md-nav__link">
+    Comparator
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sort-the-array-based-on-last-digit-of-each-number" class="md-nav__link">
+    sort the array based on last digit of each number
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function-as-an-argument" class="md-nav__link">
+    Function As An Argument
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -503,44 +530,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../sorting/sorting/" class="md-nav__link">
-        Sorting
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../searching/searching/" class="md-nav__link">
-        Searching
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../comparator/comparator/" class="md-nav__link">
-        Comparator
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sub-array/sub-array/" class="md-nav__link">
-        Sub Arrays
+      <a href="../problems/" class="md-nav__link">
+        Problems
       </a>
     </li>
   
@@ -556,10 +547,49 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3">
+        Character Array
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Character Array" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Character Array
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
       <a href="../../character-array/character-array/" class="md-nav__link">
-        Character Array
+        Introduction
       </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../character-array/problems/" class="md-nav__link">
+        Problems
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -592,6 +622,18 @@
     <li class="md-nav__item">
       <a href="../../string/string/" class="md-nav__link">
         Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../string/problems/" class="md-nav__link">
+        Problems
       </a>
     </li>
   
@@ -800,6 +842,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#comparator" class="md-nav__link">
+    Comparator
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sort-the-array-based-on-last-digit-of-each-number" class="md-nav__link">
+    sort the array based on last digit of each number
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#function-as-an-argument" class="md-nav__link">
+    Function As An Argument
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -828,6 +897,46 @@
 <li><strong><code>int a[10]={5}</code></strong>: It initialises the first element by 5 and rest of the elements by 0</li>
 <li><strong><code>int a[10]={5,2}</code></strong>: It initialises the first element by 5, second element by 2, and rest of the elements by 0</li>
 </ul>
+<h2 id="comparator">Comparator<a class="headerlink" href="#comparator" title="Permanent link">&para;</a></h2>
+<p>Comparator function can be passed inside inbuild sort() function to sort the array based on the condition provided inside comparator function.</p>
+<h4 id="sort-the-array-based-on-last-digit-of-each-number">sort the array based on last digit of each number<a class="headerlink" href="#sort-the-array-based-on-last-digit-of-each-number" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>bool comparator(int a, int b){
+    return b%10&gt;a%10;
+}
+</code></pre></div>
+<p>Pass the above function inside sort function. 
+<div class="highlight"><pre><span></span><code>sort(a,a+n,comparator);
+</code></pre></div></p>
+<h2 id="function-as-an-argument">Function As An Argument<a class="headerlink" href="#function-as-an-argument" title="Permanent link">&para;</a></h2>
+<p>Functions can be passed as an argument to another function in cpp. The <code>sort</code> function accepts comparator function as an argument. </p>
+<p>Using function as an argument to print all the odd numbers present inside the given array</p>
+<details class="info"><summary>View the code</summary><div class="highlight"><pre><span></span><code><span class="c1">// print all the odd numbers in the array</span>
+<span class="cp">#include</span><span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp"></span>
+<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span><span class="w"></span>
+
+<span class="kt">bool</span><span class="w"> </span><span class="nf">isOdd</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">){</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="o">&amp;</span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+
+<span class="kt">void</span><span class="w"> </span><span class="nf">printOddNumbers</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">[],</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="p">(</span><span class="o">&amp;</span><span class="n">fun</span><span class="p">)(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">)){</span><span class="w"></span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w"></span>
+<span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">fun</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">])){</span><span class="w"></span>
+<span class="w">            </span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">&lt;&lt;</span><span class="s">&quot; &quot;</span><span class="p">;</span><span class="w"></span>
+<span class="w">        </span><span class="p">}</span><span class="w"></span>
+<span class="w">    </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span><span class="w"></span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;enter size&quot;</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">n</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">n</span><span class="p">];</span><span class="w"></span>
+<span class="w">    </span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;enter &quot;</span><span class="o">&lt;&lt;</span><span class="n">n</span><span class="o">&lt;&lt;</span><span class="s">&quot; elements&quot;</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="p">;</span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span><span class="w">     </span>
+<span class="w">    </span><span class="n">printOddNumbers</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">n</span><span class="p">,</span><span class="n">isOdd</span><span class="p">);</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</code></pre></div>
+</details>
                 
               
               
@@ -878,7 +987,7 @@
         <!-- Link to next page -->
         
         <a
-            href="../sorting/sorting/"
+            href="../problems/"
             class="md-footer__link md-footer__link--next"
             rel="next"
         >
@@ -887,7 +996,7 @@
                 <span class="md-footer__direction">
                 Next
                 </span>
-                Sorting
+                Problems
             </div>
             </div>
             <div class="md-footer__button md-icon">

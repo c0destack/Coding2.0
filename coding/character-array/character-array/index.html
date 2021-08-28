@@ -18,7 +18,7 @@
     
     
       
-        <title>Character Array - Coding 2.0</title>
+        <title>Introduction - Coding 2.0</title>
       
     
     
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Character Array
+              Introduction
             
           </span>
         </div>
@@ -461,44 +461,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../array/sorting/sorting/" class="md-nav__link">
-        Sorting
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../array/searching/searching/" class="md-nav__link">
-        Searching
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../array/comparator/comparator/" class="md-nav__link">
-        Comparator
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../array/sub-array/sub-array/" class="md-nav__link">
-        Sub Arrays
+      <a href="../../array/problems/" class="md-nav__link">
+        Problems
       </a>
     </li>
   
@@ -516,6 +480,29 @@
     
   
   
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
+      
+      <label class="md-nav__link" for="__nav_2_3">
+        Character Array
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Character Array" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Character Array
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
     <li class="md-nav__item md-nav__item--active">
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
@@ -525,12 +512,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Character Array
+          Introduction
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Character Array
+        Introduction
       </a>
       
         
@@ -554,44 +541,28 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#problems" class="md-nav__link">
-    Problems
-  </a>
-  
-    <nav class="md-nav" aria-label="Problems">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#palindrome" class="md-nav__link">
-    Palindrome
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#remove-duplicate-characters" class="md-nav__link">
-    Remove duplicate characters
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#largest-string" class="md-nav__link">
-    Largest String
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../problems/" class="md-nav__link">
+        Problems
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -624,6 +595,18 @@
     <li class="md-nav__item">
       <a href="../../string/string/" class="md-nav__link">
         Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../string/problems/" class="md-nav__link">
+        Problems
       </a>
     </li>
   
@@ -832,40 +815,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#problems" class="md-nav__link">
-    Problems
-  </a>
-  
-    <nav class="md-nav" aria-label="Problems">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#palindrome" class="md-nav__link">
-    Palindrome
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#remove-duplicate-characters" class="md-nav__link">
-    Remove duplicate characters
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#largest-string" class="md-nav__link">
-    Largest String
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -896,82 +845,6 @@
 <li><code>cin&gt;&gt;a;</code>: it reads the input until it recieved <code>\n</code> or <code>\t</code> character.</li>
 <li><code>cin.getline(a,100,'\n')</code>: it reads the input until it recieved the <code>\n</code> chatracter</li>
 </ul>
-<h2 id="problems">Problems<a class="headerlink" href="#problems" title="Permanent link">&para;</a></h2>
-<ol>
-<li><a href="#palindrome">Palindrome</a></li>
-<li><a href="#remove-duplicate-characters">Remove duplicate characters</a></li>
-<li><a href="#largest-string">Largest string</a></li>
-</ol>
-<h4 id="palindrome">Palindrome<a class="headerlink" href="#palindrome" title="Permanent link">&para;</a></h4>
-<p>Find whether a character array is palindrome or not</p>
-<details class="info"><summary>View the code</summary><div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp"></span>
-<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span><span class="w"></span>
-
-<span class="kt">bool</span><span class="w"> </span><span class="nf">palindrome</span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="n">a</span><span class="p">[],</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">l</span><span class="p">){</span><span class="w"></span>
-<span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">j</span><span class="o">=</span><span class="n">l</span><span class="mi">-1</span><span class="p">;</span><span class="w"></span>
-<span class="k">while</span><span class="p">(</span><span class="n">i</span><span class="o">&lt;</span><span class="n">j</span><span class="p">){</span><span class="w"></span>
-<span class="k">if</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">!=</span><span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="p">])</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span><span class="w"></span>
-<span class="n">i</span><span class="o">++</span><span class="p">;</span><span class="n">j</span><span class="o">--</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-<span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span><span class="w"></span>
-<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span><span class="w"></span>
-<span class="w">    </span><span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">a</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">l</span><span class="o">=</span><span class="n">strlen</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"></span>
-<span class="n">cout</span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">palindrome</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">l</span><span class="p">)</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-</code></pre></div>
-</details>
-<h4 id="remove-duplicate-characters">Remove duplicate characters<a class="headerlink" href="#remove-duplicate-characters" title="Permanent link">&para;</a></h4>
-<p>Remove the consecutive duplicates characters from the character array</p>
-<details class="info"><summary>View the code</summary><div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp"></span>
-<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span><span class="w"></span>
-
-<span class="kt">void</span><span class="w"> </span><span class="nf">duplicate</span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="n">a</span><span class="p">[],</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">l</span><span class="p">){</span><span class="w"></span>
-<span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">l</span><span class="o">==</span><span class="mi">1</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">){</span><span class="w"></span>
-<span class="w">    </span><span class="k">return</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-<span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">j</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span><span class="n">j</span><span class="o">&lt;</span><span class="n">l</span><span class="p">;</span><span class="n">j</span><span class="o">++</span><span class="p">){</span><span class="w"></span>
-<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="p">]){</span><span class="w"></span>
-<span class="w">    </span><span class="n">a</span><span class="p">[</span><span class="o">++</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">a</span><span class="p">[</span><span class="n">j</span><span class="p">];</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-<span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="sc">&#39;\0&#39;</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span><span class="w"></span>
-<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span><span class="w"></span>
-<span class="w">    </span><span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">a</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">l</span><span class="o">=</span><span class="n">strlen</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="n">duplicate</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">l</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">a</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-</code></pre></div>
-</details>
-<h4 id="largest-string">Largest String<a class="headerlink" href="#largest-string" title="Permanent link">&para;</a></h4>
-<p>Find the largest string among million strings</p>
-<details class="info"><summary>View the code</summary><div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp"></span>
-<span class="k">using</span><span class="w"> </span><span class="k">namespace</span><span class="w"> </span><span class="nn">std</span><span class="p">;</span><span class="w"></span>
-
-<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span><span class="w"></span>
-<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span><span class="w"></span>
-<span class="w">    </span><span class="kt">char</span><span class="w"> </span><span class="n">b</span><span class="p">[</span><span class="mi">100</span><span class="p">];</span><span class="w"></span>
-<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">,</span><span class="n">maxlen</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">n</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="n">cin</span><span class="p">.</span><span class="n">get</span><span class="p">();</span><span class="w"></span>
-<span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">n</span><span class="o">--</span><span class="p">){</span><span class="w"></span>
-<span class="w">    </span><span class="n">cin</span><span class="p">.</span><span class="n">getline</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="mi">100</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">l</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strlen</span><span class="p">(</span><span class="n">a</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">l</span><span class="o">&gt;</span><span class="n">maxlen</span><span class="p">){</span><span class="w"></span>
-<span class="w">    </span><span class="n">maxlen</span><span class="o">=</span><span class="n">l</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="n">strcpy</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="n">a</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="n">cout</span><span class="o">&lt;&lt;</span><span class="s">&quot;string is: &quot;</span><span class="o">&lt;&lt;</span><span class="n">b</span><span class="o">&lt;&lt;</span><span class="s">&quot; length: &quot;</span><span class="o">&lt;&lt;</span><span class="n">maxlen</span><span class="o">&lt;&lt;</span><span class="n">endl</span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
-</code></pre></div>
-</details>
                 
               
               
@@ -1001,7 +874,7 @@
         <!-- Link to previous page -->
         
         <a
-            href="../../array/sub-array/sub-array/"
+            href="../../array/problems/"
             class="md-footer__link md-footer__link--prev"
             rel="prev"
         >
@@ -1013,7 +886,7 @@
                 <span class="md-footer__direction">
                 Previous
                 </span>
-                Sub Arrays
+                Problems
             </div>
             </div>
         </a>
@@ -1022,7 +895,7 @@
         <!-- Link to next page -->
         
         <a
-            href="../../string/string/"
+            href="../problems/"
             class="md-footer__link md-footer__link--next"
             rel="next"
         >
@@ -1031,7 +904,7 @@
                 <span class="md-footer__direction">
                 Next
                 </span>
-                Introduction
+                Problems
             </div>
             </div>
             <div class="md-footer__button md-icon">
