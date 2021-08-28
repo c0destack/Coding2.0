@@ -76,13 +76,13 @@ nav:
         - contents: coding/contents.md
         - Array: 
           - Introduction: coding/array/array.md
-          - Sorting: coding/array/sorting/sorting.md
-          - Searching: coding/array/searching/searching.md
-          - Comparator: coding/array/comparator/comparator.md
-          - Sub Arrays: coding/array/sub-array/sub-array.md
-        - Character Array: coding/character-array/character-array.md
+          - Problems: coding/array/problems.md
+        - Character Array: 
+          - Introduction: coding/character-array/character-array.md
+          - Problems: coding/character-array/problems.md
         - String: 
           - Introduction: coding/string/string.md
+          - Problems: coding/string/problems.md
     - System Design: system-design/contents.md
     - Core subjects: core-subjects/contents.md
     - Concepts: 

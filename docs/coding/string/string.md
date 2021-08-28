@@ -19,3 +19,25 @@ It uses iterator and for each loops to traverse the string
         cout<<c<<endl;
     }
     ```
+
+## Tokenization
+
+Convert the array into token based on a deliminator.
+
+??? info "View the code"
+    ```c++
+    #include<bits/stdc++.h>
+    using namespace std;
+
+    int main(){
+        char s[100]="This is a string";
+        char *ptr = strtok(s," ");
+        cout<<(ptr)<<endl;
+
+        while(ptr!=NULL){
+            ptr = strtok(NULL," ");
+            cout<<ptr<<endl;
+        }
+    }
+    ```
+    
