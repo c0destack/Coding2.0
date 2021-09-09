@@ -21,4 +21,9 @@
         <td>It contains string problems</td>
         <td> <a href="/Coding2.0/coding/string/string" > Here </a> </td>
     </tr>
+    <tr>
+        <td> Matrix </td>
+        <td>It contains matrix problems</td>
+        <td> <a href="/Coding2.0/coding/matrix/matrix" > Here </a> </td>
+    </tr>
 </table>

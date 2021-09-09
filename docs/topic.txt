@@ -1,0 +1,23 @@
+1. scalability
+2. reliability
+3. availability
+4. efficiency
+5. serviceability & managibility
+
+6. load balancing
+7. caching
+8. CDN
+9. cache invalidation
+10. Message Queue
+11. Anti-Pattern
+12. Data Partition
+13. indexing
+14. proxy
+15. redundancy
+16. sql and no sql
+17. consistent hashing
+18. ajax/long polling
+19. websocket
+20. SSE
+21. database/http pooling
+22. 

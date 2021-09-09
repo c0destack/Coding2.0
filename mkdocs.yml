@@ -83,6 +83,9 @@ nav:
         - String: 
           - Introduction: coding/string/string.md
           - Problems: coding/string/problems.md
+        - Matrix:
+          - Introduction: coding/matrix/matrix.md
+          - Problems: coding/matrix/problems.md
     - System Design: system-design/contents.md
     - Core subjects: core-subjects/contents.md
     - Concepts: 
